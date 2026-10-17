@@ -23,6 +23,10 @@ jobs:
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
+      - name: Add dependency repositories
+        run: |
+          helm repo add argo https://argoproj.github.io/argo-helm
+
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.6.0
         env:
