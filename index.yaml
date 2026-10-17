@@ -1,0 +1,42 @@
+apiVersion: v1
+entries:
+  argocd:
+  - apiVersion: v2
+    appVersion: 2.10.0
+    created: "2026-10-17T20:25:56.874606872Z"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 7.0.0
+    description: 'Argo CD - declarative continuous delivery for Kubernetes. Локальная
+      обёртка над upstream-чартом argo/argo-cd: значения проекта + Traefik IngressRoute
+      для argocd.local.'
+    digest: 745a2f6fa04580723ce6ec432c9f825589adc7806faaf59b0e8f3e6e26cce789
+    name: argocd
+    type: application
+    urls:
+    - https://github.com/Izanar/helm-charts/releases/download/argocd-0.2.0/argocd-0.2.0.tgz
+    version: 0.2.0
+  backend:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-10-17T20:25:57.056056202Z"
+    description: Mediapulse API and Worker from GHCR
+    digest: e9d6cba018238a6d6697c3ab0a5357bde6663faf88aa2423ef4b7233d044dd4c
+    name: backend
+    type: application
+    urls:
+    - https://github.com/Izanar/helm-charts/releases/download/backend-0.1.0/backend-0.1.0.tgz
+    version: 0.1.0
+  databases:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-10-17T20:25:57.277661901Z"
+    description: PostgreSQL and Redis for Mediapulse
+    digest: 698e5766b213e07704b706a0a46001a087fd55aa7a52a90e73968c8a7b7ccd19
+    name: databases
+    type: application
+    urls:
+    - https://github.com/Izanar/helm-charts/releases/download/databases-0.1.0/databases-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-10-17T20:25:57.277673947Z"
