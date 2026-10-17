@@ -8,4 +8,6 @@ appVersion: "2.10.0"
 dependencies:
   - name: argo-cd
     version: 7.0.0
-    repository: https://argoproj.github.io/argo-helm# helm-charts sync: 2026-10-17
+    repository: https://argoproj.github.io/argo-helm
+
+# helm-charts sync trigger
