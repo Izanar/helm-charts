@@ -1,3 +1,4 @@
+# source: https://github.com/Izanar/Mediapulse-Gitops (local/charts/backend)
 apiVersion: v2
 name: backend
 description: Mediapulse API and Worker from GHCR

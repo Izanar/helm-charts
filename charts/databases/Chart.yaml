@@ -1,3 +1,4 @@
+# source: https://github.com/Izanar/Mediapulse-Gitops (local/charts/databases)
 apiVersion: v2
 name: databases
 description: PostgreSQL and Redis for Mediapulse
